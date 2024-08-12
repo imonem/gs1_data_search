@@ -1,9 +1,65 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:128.0) Gecko/20100101 Firefox/128.0" version="24.7.6">
   <diagram name="Page-1" id="Xpvtg7p0Zb9sDLVaPvpn">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="774" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="EizlxhVkGcN475ZbQejZ-2" value="" style="html=1;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="63.75" y="240" width="100" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="EizlxhVkGcN475ZbQejZ-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="EizlxhVkGcN475ZbQejZ-1" target="EizlxhVkGcN475ZbQejZ-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="308" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EizlxhVkGcN475ZbQejZ-1" value="Salesforce" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="263" width="67.5" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="EizlxhVkGcN475ZbQejZ-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EizlxhVkGcN475ZbQejZ-3" target="EizlxhVkGcN475ZbQejZ-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EizlxhVkGcN475ZbQejZ-3" value="MyGS1" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="357" width="67.5" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="EizlxhVkGcN475ZbQejZ-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="EizlxhVkGcN475ZbQejZ-4" target="EizlxhVkGcN475ZbQejZ-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EizlxhVkGcN475ZbQejZ-14" value="Extract" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EizlxhVkGcN475ZbQejZ-9">
+          <mxGeometry x="0.6624" y="-1" relative="1" as="geometry">
+            <mxPoint x="1" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EizlxhVkGcN475ZbQejZ-4" value="GI" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="450" width="67.5" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="EizlxhVkGcN475ZbQejZ-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EizlxhVkGcN475ZbQejZ-5" target="EizlxhVkGcN475ZbQejZ-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EizlxhVkGcN475ZbQejZ-17" value="Transform" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EizlxhVkGcN475ZbQejZ-16">
+          <mxGeometry x="-0.1789" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EizlxhVkGcN475ZbQejZ-5" value="Data Warehouse" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="549" y="322" width="150" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="EizlxhVkGcN475ZbQejZ-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="EizlxhVkGcN475ZbQejZ-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400.00000000000006" y="401.5" as="sourcePoint" />
+            <mxPoint x="531.58" y="401.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EizlxhVkGcN475ZbQejZ-13" value="Transform and Load" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EizlxhVkGcN475ZbQejZ-12">
+          <mxGeometry x="0.125" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EizlxhVkGcN475ZbQejZ-7" value="Staging Area" style="html=1;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="310" y="318.75" width="107.42" height="166.5" as="geometry" />
+        </mxCell>
+        <mxCell id="EizlxhVkGcN475ZbQejZ-15" value="Analytics - PowerBI" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="830" y="346" width="224" height="112" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
